@@ -1,0 +1,30 @@
+[26-Sep-2019 15:05:03] NOTICE: fpm is running, pid 15066
+[26-Sep-2019 15:05:03] NOTICE: ready to handle connections
+[28-Sep-2019 11:18:32] NOTICE: Terminating ...
+[28-Sep-2019 11:18:33] NOTICE: Terminating ...
+[28-Sep-2019 11:18:33] NOTICE: exiting, bye-bye!
+[28-Sep-2019 11:18:39] NOTICE: fpm is running, pid 20504
+[28-Sep-2019 11:18:39] NOTICE: ready to handle connections
+[30-Sep-2019 09:58:10] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 09:58:10] ERROR: FPM initialization failed
+[30-Sep-2019 09:58:12] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 09:58:12] ERROR: FPM initialization failed
+[30-Sep-2019 09:58:13] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 09:58:13] ERROR: FPM initialization failed
+[30-Sep-2019 09:58:14] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 09:58:14] ERROR: FPM initialization failed
+[30-Sep-2019 10:02:58] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 10:02:58] ERROR: FPM initialization failed
+[30-Sep-2019 10:02:58] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 10:02:58] ERROR: FPM initialization failed
+[30-Sep-2019 10:02:59] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 10:02:59] ERROR: FPM initialization failed
+[30-Sep-2019 10:03:00] ERROR: Another FPM instance seems to already listen on /Users/jakeroberts/Library/Application Support/Local/run/d-sISk0-Y/php-fpm.sock
+[30-Sep-2019 10:03:00] ERROR: FPM initialization failed
+[03-Oct-2019 13:00:58] NOTICE: Terminating ...
+[03-Oct-2019 13:00:59] NOTICE: exiting, bye-bye!
+[03-Oct-2019 13:25:23] NOTICE: fpm is running, pid 801
+[03-Oct-2019 13:25:23] NOTICE: ready to handle connections
+[05-Oct-2019 14:16:39] NOTICE: Terminating ...
+[05-Oct-2019 14:16:39] NOTICE: Terminating ...
+[05-Oct-2019 14:16:39] NOTICE: exiting, bye-bye!

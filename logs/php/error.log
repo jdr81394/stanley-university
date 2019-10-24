@@ -1,0 +1,867 @@
+[26-Sep-2019 19:26:33 UTC] PHP Parse error:  syntax error, unexpected '"' in /Users/jakeroberts/Local Sites/stanley-university/app/public/experiment.php on line 3
+[26-Sep-2019 19:27:56 UTC] PHP Notice:  Undefined variable: name in /Users/jakeroberts/Local Sites/stanley-university/app/public/experiment.php on line 5
+[26-Sep-2019 19:27:56 UTC] PHP Stack trace:
+[26-Sep-2019 19:27:56 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/experiment.php:0
+[26-Sep-2019 19:27:59 UTC] PHP Notice:  Undefined variable: name in /Users/jakeroberts/Local Sites/stanley-university/app/public/experiment.php on line 5
+[26-Sep-2019 19:27:59 UTC] PHP Stack trace:
+[26-Sep-2019 19:27:59 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/experiment.php:0
+[26-Sep-2019 20:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/index.php on line 18
+[26-Sep-2019 20:01:13 UTC] PHP Stack trace:
+[26-Sep-2019 20:01:13 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[26-Sep-2019 20:01:13 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[26-Sep-2019 20:01:13 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:19
+[26-Sep-2019 20:01:13 UTC] PHP   4. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php:78
+[27-Sep-2019 16:45:30 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/index.php on line 75
+[27-Sep-2019 21:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function toUpperCase() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/index.php:22
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php(19): require_once('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php(17): require('/Users/jakerobe...')
+#3 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/index.php on line 22
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:36 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:36 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:36 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:36 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:36 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:36 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:36 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:36 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:36 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:36 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:36 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:36 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:45:36 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:36 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:36 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:36 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:36 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:39 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:39 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:39 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:39 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:39 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:39 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:39 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:39 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:39 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:39 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:39 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:39 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:45:39 UTC] PHP Stack trace:
+[30-Sep-2019 15:45:39 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:45:39 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:45:39 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:45:39 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:45:39 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:45:39 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:32 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:32 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:32 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:32 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:32 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:32 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:32 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:32 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:32 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:32 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:32 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:46:32 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:32 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:32 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:32 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:32 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:32 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:32 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:48 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:48 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:48 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:48 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:48 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:48 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:48 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:48 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:48 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:48 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:48 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:48 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:46:48 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:48 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:48 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:48 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:48 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:48 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:48 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:49 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:49 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:49 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:49 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:49 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:49 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:49 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:49 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:49 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:49 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:49 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:49 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:46:49 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:49 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:49 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:49 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:49 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:49 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:49 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:50 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:50 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:50 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:50 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:50 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:50 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:50 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:50 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:50 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:50 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:50 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:50 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:46:50 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:50 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:50 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:50 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:50 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:50 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:50 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php on line 35
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. strip_tags() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:35
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:51 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:51 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:51 UTC] PHP   6. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:51 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:51 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:51 UTC] PHP   6. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:51 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:51 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:51 UTC] PHP   6. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:51 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:51 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:51 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:46:51 UTC] PHP Stack trace:
+[30-Sep-2019 15:46:51 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:0
+[30-Sep-2019 15:46:51 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit.php:353
+[30-Sep-2019 15:46:51 UTC] PHP   3. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:46:51 UTC] PHP   4. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:46:51 UTC] PHP   5. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:46:51 UTC] PHP   6. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:56:14 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/university-post-types.php:3) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 24
+[30-Sep-2019 15:56:14 UTC] PHP Stack trace:
+[30-Sep-2019 15:56:14 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:0
+[30-Sep-2019 15:56:14 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:22
+[30-Sep-2019 15:56:14 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 15:56:14 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 15:56:15 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/university-post-types.php:3) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 24
+[30-Sep-2019 15:56:15 UTC] PHP Stack trace:
+[30-Sep-2019 15:56:15 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/plugins.php:0
+[30-Sep-2019 15:56:15 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/plugins.php:10
+[30-Sep-2019 15:56:15 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin.php:34
+[30-Sep-2019 15:56:15 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 15:56:15 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 15:58:31 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:58:31 UTC] PHP Stack trace:
+[30-Sep-2019 15:58:31 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:58:31 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:58:31 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:58:31 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:58:31 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:58:31 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:58:31 UTC] PHP   7. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:58:31 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:58:31 UTC] PHP Stack trace:
+[30-Sep-2019 15:58:31 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:58:31 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:58:31 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:58:31 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:58:31 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:58:31 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:58:31 UTC] PHP   7. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:58:31 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:58:31 UTC] PHP Stack trace:
+[30-Sep-2019 15:58:31 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:58:31 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:58:31 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:58:31 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:58:31 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:58:31 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:58:31 UTC] PHP   7. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:58:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:58:31 UTC] PHP Stack trace:
+[30-Sep-2019 15:58:31 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:58:31 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:58:31 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:58:31 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:58:31 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:58:31 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:58:31 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:58:31 UTC] PHP Stack trace:
+[30-Sep-2019 15:58:31 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:58:31 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:58:31 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:58:31 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:58:31 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:58:31 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:58:31 UTC] PHP   7. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 15:59:18 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 15:59:18 UTC] PHP Stack trace:
+[30-Sep-2019 15:59:18 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:59:18 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:59:18 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:59:18 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:59:18 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:59:18 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:59:18 UTC] PHP   7. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 15:59:18 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 15:59:18 UTC] PHP Stack trace:
+[30-Sep-2019 15:59:18 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:59:18 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:59:18 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:59:18 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:59:18 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:59:18 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:59:18 UTC] PHP   7. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 15:59:18 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 15:59:18 UTC] PHP Stack trace:
+[30-Sep-2019 15:59:18 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:59:18 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:59:18 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:59:18 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:59:18 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:59:18 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:59:18 UTC] PHP   7. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 15:59:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 15:59:18 UTC] PHP Stack trace:
+[30-Sep-2019 15:59:18 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:59:18 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:59:18 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:59:18 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:59:18 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:59:18 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:59:18 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 15:59:18 UTC] PHP Stack trace:
+[30-Sep-2019 15:59:18 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 15:59:18 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 15:59:18 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 15:59:18 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 15:59:18 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 15:59:18 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 15:59:18 UTC] PHP   7. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 16:03:55 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 246
+[30-Sep-2019 16:03:55 UTC] PHP Stack trace:
+[30-Sep-2019 16:03:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 16:03:55 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 16:03:55 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 16:03:55 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 16:03:55 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 16:03:55 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 16:03:55 UTC] PHP   7. preg_match_all() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:246
+[30-Sep-2019 16:03:55 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 247
+[30-Sep-2019 16:03:55 UTC] PHP Stack trace:
+[30-Sep-2019 16:03:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 16:03:55 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 16:03:55 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 16:03:55 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 16:03:55 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 16:03:55 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 16:03:55 UTC] PHP   7. array_intersect() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:247
+[30-Sep-2019 16:03:55 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 252
+[30-Sep-2019 16:03:55 UTC] PHP Stack trace:
+[30-Sep-2019 16:03:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 16:03:55 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 16:03:55 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 16:03:55 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 16:03:55 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 16:03:55 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 16:03:55 UTC] PHP   7. preg_split() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:252
+[30-Sep-2019 16:03:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 254
+[30-Sep-2019 16:03:55 UTC] PHP Stack trace:
+[30-Sep-2019 16:03:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 16:03:55 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 16:03:55 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 16:03:55 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 16:03:55 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 16:03:55 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 16:03:55 UTC] PHP Warning:  implode(): Invalid arguments passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php on line 314
+[30-Sep-2019 16:03:55 UTC] PHP Stack trace:
+[30-Sep-2019 16:03:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:0
+[30-Sep-2019 16:03:55 UTC] PHP   2. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/post-new.php:75
+[30-Sep-2019 16:03:55 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/edit-form-advanced.php:393
+[30-Sep-2019 16:03:55 UTC] PHP   4. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-header.php:236
+[30-Sep-2019 16:03:55 UTC] PHP   5. _wp_menu_output() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:272
+[30-Sep-2019 16:03:55 UTC] PHP   6. wptexturize() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/menu-header.php:233
+[30-Sep-2019 16:03:55 UTC] PHP   7. implode() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/formatting.php:314
+[30-Sep-2019 16:43:16 UTC] PHP Warning:  Use of undefined constant STYLESHEETPATH - assumed 'STYLESHEETPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 658
+[30-Sep-2019 16:43:16 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:16 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:43:16 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:43:16 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:43:16 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:16 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:16 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:16 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:16 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:17 UTC] PHP Warning:  Use of undefined constant TEMPLATEPATH - assumed 'TEMPLATEPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 661
+[30-Sep-2019 16:43:17 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:17 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:43:17 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:43:17 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:43:17 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:17 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:17 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:17 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:17 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:17 UTC] PHP Warning:  Use of undefined constant AUTOSAVE_INTERVAL - assumed 'AUTOSAVE_INTERVAL' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php on line 2145
+[30-Sep-2019 16:43:17 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:17 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:43:17 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:43:17 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:43:17 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:17 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:17 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:17 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:17 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:17 UTC] PHP   9. load_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:671
+[30-Sep-2019 16:43:17 UTC] PHP  10. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:722
+[30-Sep-2019 16:43:17 UTC] PHP  11. wp_head() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php:49
+[30-Sep-2019 16:43:17 UTC] PHP  12. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:2745
+[30-Sep-2019 16:43:17 UTC] PHP  13. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:43:17 UTC] PHP  14. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:43:17 UTC] PHP  15. wp_print_head_scripts() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:43:17 UTC] PHP  16. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php:2490
+[30-Sep-2019 16:43:17 UTC] PHP  17. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:43:17 UTC] PHP  18. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:43:17 UTC] PHP  19. wp_just_in_time_script_localization() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:43:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function using_index_permalinks() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:358
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(763): get_rest_url()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(284): rest_output_link_wp_head()
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(Array, Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php(2745): do_action('wp_head')
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php(49): wp_head()
+#6 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php(722): require_once('/ in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php on line 358
+[30-Sep-2019 16:43:43 UTC] PHP Warning:  Use of undefined constant STYLESHEETPATH - assumed 'STYLESHEETPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 658
+[30-Sep-2019 16:43:43 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:43 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:0
+[30-Sep-2019 16:43:43 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:22
+[30-Sep-2019 16:43:43 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:43 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:43 UTC] PHP   5. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:43 UTC] PHP   6. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:43 UTC] PHP   7. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:43 UTC] PHP Warning:  Use of undefined constant TEMPLATEPATH - assumed 'TEMPLATEPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 661
+[30-Sep-2019 16:43:43 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:43 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:0
+[30-Sep-2019 16:43:43 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:22
+[30-Sep-2019 16:43:43 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:43 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:43 UTC] PHP   5. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:43 UTC] PHP   6. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:43 UTC] PHP   7. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:43 UTC] PHP Warning:  Use of undefined constant AUTOSAVE_INTERVAL - assumed 'AUTOSAVE_INTERVAL' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php on line 2145
+[30-Sep-2019 16:43:43 UTC] PHP Stack trace:
+[30-Sep-2019 16:43:43 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:0
+[30-Sep-2019 16:43:43 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php:22
+[30-Sep-2019 16:43:43 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:43:43 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:43:43 UTC] PHP   5. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:43:43 UTC] PHP   6. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:43:43 UTC] PHP   7. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:43:43 UTC] PHP   8. load_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:671
+[30-Sep-2019 16:43:43 UTC] PHP   9. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:722
+[30-Sep-2019 16:43:43 UTC] PHP  10. wp_head() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php:49
+[30-Sep-2019 16:43:43 UTC] PHP  11. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:2745
+[30-Sep-2019 16:43:43 UTC] PHP  12. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:43:43 UTC] PHP  13. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:43:43 UTC] PHP  14. wp_print_head_scripts() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:43:43 UTC] PHP  15. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php:2490
+[30-Sep-2019 16:43:43 UTC] PHP  16. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:43:43 UTC] PHP  17. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:43:43 UTC] PHP  18. wp_just_in_time_script_localization() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:43:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function using_index_permalinks() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:358
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(763): get_rest_url()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(284): rest_output_link_wp_head()
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(Array, Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php(2745): do_action('wp_head')
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php(49): wp_head()
+#6 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php(722): require_once('/ in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php on line 358
+[30-Sep-2019 16:44:20 UTC] PHP Warning:  Use of undefined constant STYLESHEETPATH - assumed 'STYLESHEETPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 658
+[30-Sep-2019 16:44:20 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:20 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:44:20 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:44:20 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:44:20 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:20 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:20 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:20 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:20 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:20 UTC] PHP Warning:  Use of undefined constant TEMPLATEPATH - assumed 'TEMPLATEPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 661
+[30-Sep-2019 16:44:20 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:20 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:44:20 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:44:20 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:44:20 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:20 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:20 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:20 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:20 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:20 UTC] PHP Warning:  Use of undefined constant AUTOSAVE_INTERVAL - assumed 'AUTOSAVE_INTERVAL' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php on line 2145
+[30-Sep-2019 16:44:20 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:20 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 16:44:20 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 16:44:20 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:13
+[30-Sep-2019 16:44:20 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:20 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:20 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:20 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:20 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:20 UTC] PHP   9. load_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:671
+[30-Sep-2019 16:44:20 UTC] PHP  10. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:722
+[30-Sep-2019 16:44:20 UTC] PHP  11. wp_head() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php:49
+[30-Sep-2019 16:44:20 UTC] PHP  12. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:2745
+[30-Sep-2019 16:44:20 UTC] PHP  13. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:44:20 UTC] PHP  14. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:44:20 UTC] PHP  15. wp_print_head_scripts() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:44:20 UTC] PHP  16. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php:2490
+[30-Sep-2019 16:44:20 UTC] PHP  17. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:44:20 UTC] PHP  18. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:44:20 UTC] PHP  19. wp_just_in_time_script_localization() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:44:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function using_index_permalinks() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:358
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(763): get_rest_url()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(284): rest_output_link_wp_head()
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(Array, Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php(2745): do_action('wp_head')
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php(49): wp_head()
+#6 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php(722): require_once('/ in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php on line 358
+[30-Sep-2019 16:44:36 UTC] PHP Warning:  Use of undefined constant STYLESHEETPATH - assumed 'STYLESHEETPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 658
+[30-Sep-2019 16:44:36 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:0
+[30-Sep-2019 16:44:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:10
+[30-Sep-2019 16:44:36 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin.php:34
+[30-Sep-2019 16:44:36 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:36 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:36 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:36 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:36 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:36 UTC] PHP Warning:  Use of undefined constant TEMPLATEPATH - assumed 'TEMPLATEPATH' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php on line 661
+[30-Sep-2019 16:44:36 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:0
+[30-Sep-2019 16:44:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:10
+[30-Sep-2019 16:44:36 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin.php:34
+[30-Sep-2019 16:44:36 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:36 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:36 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:36 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:36 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:36 UTC] PHP Warning:  Use of undefined constant AUTOSAVE_INTERVAL - assumed 'AUTOSAVE_INTERVAL' (this will throw an Error in a future version of PHP) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php on line 2145
+[30-Sep-2019 16:44:36 UTC] PHP Stack trace:
+[30-Sep-2019 16:44:36 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:0
+[30-Sep-2019 16:44:36 UTC] PHP   2. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/options-permalink.php:10
+[30-Sep-2019 16:44:36 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin.php:34
+[30-Sep-2019 16:44:36 UTC] PHP   4. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php:37
+[30-Sep-2019 16:44:36 UTC] PHP   5. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php:77
+[30-Sep-2019 16:44:36 UTC] PHP   6. include_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php:293
+[30-Sep-2019 16:44:36 UTC] PHP   7. get_header() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/mu-plugins/archive-event.php:1
+[30-Sep-2019 16:44:36 UTC] PHP   8. locate_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:41
+[30-Sep-2019 16:44:36 UTC] PHP   9. load_template() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:671
+[30-Sep-2019 16:44:36 UTC] PHP  10. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php:722
+[30-Sep-2019 16:44:36 UTC] PHP  11. wp_head() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php:49
+[30-Sep-2019 16:44:36 UTC] PHP  12. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php:2745
+[30-Sep-2019 16:44:36 UTC] PHP  13. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:44:36 UTC] PHP  14. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:44:36 UTC] PHP  15. wp_print_head_scripts() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:44:36 UTC] PHP  16. do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/script-loader.php:2490
+[30-Sep-2019 16:44:36 UTC] PHP  17. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:465
+[30-Sep-2019 16:44:36 UTC] PHP  18. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[30-Sep-2019 16:44:36 UTC] PHP  19. wp_just_in_time_script_localization() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[30-Sep-2019 16:44:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function using_index_permalinks() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:358
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(763): get_rest_url()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(284): rest_output_link_wp_head()
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(Array, Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/general-template.php(2745): do_action('wp_head')
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/theme-compat/header.php(49): wp_head()
+#6 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template.php(722): require_once('/ in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php on line 358
+[30-Sep-2019 17:01:20 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/front-page.php on line 34
+[30-Sep-2019 17:01:20 UTC] PHP Stack trace:
+[30-Sep-2019 17:01:20 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 17:01:20 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 17:01:20 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:19
+[30-Sep-2019 17:29:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Date' not found in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/front-page.php:29
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php(19): require_once('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php(17): require('/Users/jakerobe...')
+#3 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/front-page.php on line 29
+[30-Sep-2019 20:38:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-program.php on line 52
+[30-Sep-2019 21:01:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-program.php:52
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php(78): include()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php(19): require_once('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php(17): require('/Users/jakerobe...')
+#3 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-program.php on line 52
+[30-Sep-2019 21:07:35 UTC] PHP Catchable fatal error:  Object of class WP_Query could not be converted to string in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-program.php on line 45
+[30-Sep-2019 21:07:35 UTC] PHP Stack trace:
+[30-Sep-2019 21:07:35 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[30-Sep-2019 21:07:35 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[30-Sep-2019 21:07:35 UTC] PHP   3. require_once() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:19
+[30-Sep-2019 21:07:35 UTC] PHP   4. include() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php:78
+[30-Sep-2019 21:07:35 UTC] PHP   5. printf() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-program.php:45
+[30-Sep-2019 22:01:17 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/single-professor.php on line 18
+[30-Sep-2019 22:21:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 20 and at least 1 expected in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/media.php:273
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php(20): add_image_size()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php(509): do_action('after_setup_the...')
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/pu in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/media.php on line 273
+[01-Oct-2019 14:45:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php on line 160
+[01-Oct-2019 14:45:26 UTC] PHP Stack trace:
+[01-Oct-2019 14:45:26 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:0
+[01-Oct-2019 14:45:26 UTC] PHP   2. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:133
+[01-Oct-2019 14:45:26 UTC] PHP   3. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[01-Oct-2019 14:45:26 UTC] PHP   4. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[01-Oct-2019 14:45:26 UTC] PHP   5. wp_version_check() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[01-Oct-2019 14:45:27 UTC] PHP   6. trigger_error() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php:160
+[01-Oct-2019 14:45:33 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php on line 384
+[01-Oct-2019 14:45:33 UTC] PHP Stack trace:
+[01-Oct-2019 14:45:33 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:0
+[01-Oct-2019 14:45:35 UTC] PHP   2. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:133
+[01-Oct-2019 14:45:36 UTC] PHP   3. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[01-Oct-2019 14:45:36 UTC] PHP   4. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[01-Oct-2019 14:45:36 UTC] PHP   5. wp_update_plugins() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[01-Oct-2019 14:45:36 UTC] PHP   6. trigger_error() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php:384
+[01-Oct-2019 14:45:42 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php on line 569
+[01-Oct-2019 14:45:42 UTC] PHP Stack trace:
+[01-Oct-2019 14:45:42 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:0
+[01-Oct-2019 14:45:42 UTC] PHP   2. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-cron.php:133
+[01-Oct-2019 14:45:42 UTC] PHP   3. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[01-Oct-2019 14:45:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[01-Oct-2019 14:45:42 UTC] PHP   5. wp_update_themes() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[01-Oct-2019 14:45:42 UTC] PHP   6. trigger_error() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/update.php:569
+[01-Oct-2019 17:13:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function page_banner(), 0 passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/page.php on line 5 and exactly 1 expected in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php:3
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/page.php(5): page_banner()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/template-loader.php(78): include('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php(19): require_once('/Users/jakerobe...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php(17): require('/Users/jakerobe...')
+#4 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 3
+[03-Oct-2019 00:08:57 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-post.php on line 231
+[03-Oct-2019 00:08:57 UTC] PHP Stack trace:
+[03-Oct-2019 00:08:57 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[03-Oct-2019 00:08:57 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[03-Oct-2019 00:08:57 UTC] PHP   3. wp() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:16
+[03-Oct-2019 00:08:57 UTC] PHP   4. WP->main() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/functions.php:1105
+[03-Oct-2019 00:08:57 UTC] PHP   5. WP->parse_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:737
+[03-Oct-2019 00:08:57 UTC] PHP   6. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:387
+[03-Oct-2019 00:08:57 UTC] PHP   7. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[03-Oct-2019 00:08:57 UTC] PHP   8. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[03-Oct-2019 00:08:57 UTC] PHP   9. rest_api_loaded() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[03-Oct-2019 00:08:57 UTC] PHP  10. WP_REST_Server->serve_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:309
+[03-Oct-2019 00:08:57 UTC] PHP  11. WP_REST_Server->dispatch() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:329
+[03-Oct-2019 00:08:57 UTC] PHP  12. universitySearchResults() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[03-Oct-2019 00:08:57 UTC] PHP  13. get_post_type() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:70
+[03-Oct-2019 00:08:57 UTC] PHP  14. get_post() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php:1151
+[03-Oct-2019 00:08:57 UTC] PHP  15. WP_Post::get_instance() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php:723
+[03-Oct-2019 00:09:55 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php on line 723
+[03-Oct-2019 00:09:55 UTC] PHP Stack trace:
+[03-Oct-2019 00:09:55 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[03-Oct-2019 00:09:55 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[03-Oct-2019 00:09:55 UTC] PHP   3. wp() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:16
+[03-Oct-2019 00:09:55 UTC] PHP   4. WP->main() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/functions.php:1105
+[03-Oct-2019 00:09:55 UTC] PHP   5. WP->parse_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:737
+[03-Oct-2019 00:09:55 UTC] PHP   6. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:387
+[03-Oct-2019 00:09:55 UTC] PHP   7. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[03-Oct-2019 00:09:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[03-Oct-2019 00:09:55 UTC] PHP   9. rest_api_loaded() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[03-Oct-2019 00:09:55 UTC] PHP  10. WP_REST_Server->serve_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:309
+[03-Oct-2019 00:09:55 UTC] PHP  11. WP_REST_Server->dispatch() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:329
+[03-Oct-2019 00:09:55 UTC] PHP  12. universitySearchResults() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[03-Oct-2019 00:09:55 UTC] PHP  13. get_post_type() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:70
+[03-Oct-2019 00:09:55 UTC] PHP  14. get_post() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php:1151
+[03-Oct-2019 01:21:42 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php on line 723
+[03-Oct-2019 01:21:42 UTC] PHP Stack trace:
+[03-Oct-2019 01:21:42 UTC] PHP   1. {main}() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:0
+[03-Oct-2019 01:21:42 UTC] PHP   2. require() /Users/jakeroberts/Local Sites/stanley-university/app/public/index.php:17
+[03-Oct-2019 01:21:42 UTC] PHP   3. wp() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-blog-header.php:16
+[03-Oct-2019 01:21:42 UTC] PHP   4. WP->main() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/functions.php:1105
+[03-Oct-2019 01:21:42 UTC] PHP   5. WP->parse_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:737
+[03-Oct-2019 01:21:42 UTC] PHP   6. do_action_ref_array() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp.php:387
+[03-Oct-2019 01:21:42 UTC] PHP   7. WP_Hook->do_action() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:531
+[03-Oct-2019 01:21:42 UTC] PHP   8. WP_Hook->apply_filters() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:310
+[03-Oct-2019 01:21:42 UTC] PHP   9. rest_api_loaded() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php:286
+[03-Oct-2019 01:21:42 UTC] PHP  10. WP_REST_Server->serve_request() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php:309
+[03-Oct-2019 01:21:42 UTC] PHP  11. WP_REST_Server->dispatch() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:329
+[03-Oct-2019 01:21:42 UTC] PHP  12. universitySearchResults() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:946
+[03-Oct-2019 01:21:42 UTC] PHP  13. get_post_type() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:70
+[03-Oct-2019 01:21:42 UTC] PHP  14. get_post() /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/post.php:1151
+[03-Oct-2019 01:39:40 UTC] PHP Parse error:  syntax error, unexpected ''author_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 34
+[03-Oct-2019 16:33:51 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 16:34:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 16:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:91
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugi in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 16:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:91
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugi in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 16:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:91
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugi in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 16:37:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php:91
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugi in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 91
+[03-Oct-2019 17:33:12 UTC] PHP Parse error:  syntax error, unexpected 'duplicates' (T_STRING) in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 106
+[03-Oct-2019 18:20:42 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 52
+[03-Oct-2019 18:20:51 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ')' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/includes/search-route.php on line 52
+[03-Oct-2019 20:38:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 121 and at least 2 expected in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php:405
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php(121): add_action()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php(499): include('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php(77): require_once('/Users/jakerobe...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php(37): require_once('/Users/jakerobe...')
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jakerobe...')
+#5 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php on line 405
+[03-Oct-2019 20:39:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 121
+[03-Oct-2019 20:41:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_redirect(), 0 passed in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 125 and at least 1 expected in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/pluggable.php:1205
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php(125): wp_redirect()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(286): redirectSubsToFrontend('')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-includes/pluggable.php on line 1205
+[03-Oct-2019 20:54:57 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 162
+[03-Oct-2019 20:55:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ourLoginCss() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php:162
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php(499): include()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php(77): require_once('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php(37): require_once('/Users/jakerobe...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-login.php(12): require('/Users/jakerobe...')
+#4 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 162
+[03-Oct-2019 20:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ourLoginCss() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php:162
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-settings.php(499): include()
+#1 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-config.php(77): require_once('/Users/jakerobe...')
+#2 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-load.php(37): require_once('/Users/jakerobe...')
+#3 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jakerobe...')
+#4 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-content/themes/stanley-u-theme/functions.php on line 162
+[03-Oct-2019 20:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_site_title() in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-login.php:150
+Stack trace:
+#0 /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-login.php(1056): login_header('Log In', '', Object(WP_Error))
+#1 {main}
+  thrown in /Users/jakeroberts/Local Sites/stanley-university/app/public/wp-login.php on line 150
